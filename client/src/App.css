@@ -1,0 +1,97 @@
+.header {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #283f4d;
+  color: white;
+  height: 50px;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #283f4d;
+  color: #5fc6f7;
+  text-align: center;
+  height: 50px;
+  font-size: 31px;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+.center-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-layout {
+  background-image: url('./movie-bg.jpeg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+}
+
+.container-head {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.container-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+}
+
+.search-input {
+  width: 300px;
+  height: 48px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+.search-year-input {
+  width: 150px;
+}
+
+.submit-btn {
+  width: 100px;
+  height: 48px;
+  background-color: #283f4d;
+  color: white;
+  font-size: 20px;
+  margin: 0 10px 0 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: auto;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: white;
+  opacity: 0.4;
+}
